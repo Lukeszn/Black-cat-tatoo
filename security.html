@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action 'none'; frame-src 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Security — Black Cat Tattoo Studio, Lurgan</title>
+<meta name="description" content="How Black Cat Tattoo Studio&#x27;s website protects visitors, how to avoid scams, and how to report a vulnerability.">
+<link rel="canonical" href="https://lukeszn.github.io/Black-cat-tatoo/security.html">
+<meta name="theme-color" content="#0e0c0f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/pirata-one.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/sora-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+<header class="nav solid" id="nav">
+  <div class="nav-backdrop" id="navBackdrop"></div>
+  <div class="nav-inner">
+    <a class="brand" href="./" aria-label="Black Cat Tattoo Studio — home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 54c-12 0-19-6-19-16 0-6 2-11 5-14-1-5-1-10 1-16l8 7a16 16 0 0 1 10 0l8-7c2 6 2 11 1 16 3 3 5 8 5 14 0 10-7 16-19 16z" fill="#1c1820" stroke="#efe6d8" stroke-width="2"/><g class="eyes"><ellipse cx="25" cy="36" rx="3.6" ry="2.6" fill="#d9a441"/><ellipse cx="39" cy="36" rx="3.6" ry="2.6" fill="#d9a441"/><ellipse cx="25" cy="36" rx="1" ry="2.2" fill="#0e0c0f"/><ellipse cx="39" cy="36" rx="1" ry="2.2" fill="#0e0c0f"/></g></svg>
+      <span class="brand-word">Black Cat</span>
+    </a>
+    <nav aria-label="Policies">
+      <button class="burger" id="burger" aria-controls="navLinks" aria-expanded="false"><span></span><span class="sr-only">Menu</span></button>
+      <ul class="nav-links" id="navLinks"><li><a href="privacy.html">Privacy</a></li><li><a href="cookies.html">Cookies</a></li><li><a href="terms.html">Booking terms</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="security.html" aria-current="page">Security</a></li><li><a class="btn btn-gold" href="./#book">Book a consultation</a></li></ul>
+    </nav>
+  </div>
+</header>
+<div class="page">
+<main id="main" class="legal">
+  <div class="wrap legal-grid">
+    <nav class="toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#site">How this website is protected</a></li><li><a href="#scams">Protecting yourself from scams</a></li><li><a href="#report">Reporting a vulnerability</a></li><li><a href="#securitytxt">security.txt</a></li></ol></nav>
+    <article class="prose">
+
+<h1>Security</h1>
+<p class="updated">Last updated 23 October 2026</p>
+<div class="summary"><p>This page explains how the website protects you, how to spot scams using our name, and how to report a security problem to us.</p></div>
+
+<h2 id="site">How this website is protected</h2>
+<ul>
+  <li><strong>HTTPS only.</strong> Every page is served over an encrypted connection.</li>
+  <li><strong>Static site.</strong> There's no login, database or admin panel on the website to attack, and we don't store your enquiries on it.</li>
+  <li><strong>Content Security Policy.</strong> Pages may only run our own scripts and load our own styles, fonts and images. This blocks injected scripts and unexpected third-party code.</li>
+  <li><strong>No trackers or third-party scripts.</strong> No analytics, ad tags or embedded social widgets. Fonts are self-hosted.</li>
+  <li><strong>Click-to-load map.</strong> Google Maps only loads in a sandboxed frame after you ask for it.</li>
+  <li><strong>Safer form.</strong> Enquiries are sent over HTTPS to our inbox via FormSubmit, with spam protection, length limits, and only image files up to 5 MB accepted.</li>
+  <li><strong>Safe external links.</strong> Links to other sites open without passing control of this page or unnecessary referrer information.</li>
+</ul>
+
+<h2 id="scams">Protecting yourself from scams</h2>
+<p>Fake accounts sometimes copy tattoo studios to take deposits. To stay safe:</p>
+<ul>
+  <li>Our official accounts are <a href="https://www.instagram.com/blackcattattoo_lurgan/" target="_blank" rel="noopener noreferrer">@blackcattattoo_lurgan</a> and <a href="https://www.instagram.com/girv.tattoo/" target="_blank" rel="noopener noreferrer">@girv.tattoo</a> on Instagram, <a href="https://www.tiktok.com/@girvtattoo" target="_blank" rel="noopener noreferrer">@girvtattoo</a> on TikTok, and <a href="https://www.facebook.com/girvtattoos/" target="_blank" rel="noopener noreferrer">girvtattoos</a> on Facebook. Our email is <a href="mailto:lukeszns@gmail.com">lukeszns@gmail.com</a>.</li>
+  <li>We'll never ask for your card number, PIN or bank passwords by message or email.</li>
+  <li>We don't run "giveaways" that need a fee or your bank details.</li>
+  <li>If you're unsure whether a message is really from us, contact us through one of the official channels above before paying anything.</li>
+</ul>
+
+<h2 id="report">Reporting a vulnerability</h2>
+<p>If you think you've found a security problem with this website or our enquiry form, please email <a href="mailto:lukeszns@gmail.com">lukeszns@gmail.com</a> with "Security" in the subject line. Include:</p>
+<ul>
+  <li>the page or feature affected</li>
+  <li>what the problem is and what someone could do with it</li>
+  <li>steps to reproduce it</li>
+</ul>
+<p>We'll acknowledge your report within 5 working days and keep you updated while we fix it. We're a small studio and can't offer payment for reports, but we're very grateful and happy to thank you publicly if you'd like.</p>
+
+<h3>Please don't</h3>
+<ul>
+  <li>access, change or delete anyone else's information</li>
+  <li>send large volumes of form submissions, spam, or anything that could disrupt the site or our inbox</li>
+  <li>use social engineering or phishing against us or our clients</li>
+  <li>test against 191 Hair and Beauty, GitHub, FormSubmit, Google or Meta systems — report issues with those services to them directly</li>
+  <li>share details of the problem publicly until we've had a reasonable chance to fix it</li>
+</ul>
+<p>If you act in good faith and follow these guidelines, we won't take legal action against you for your research.</p>
+
+<h2 id="securitytxt">security.txt</h2>
+<p>A machine-readable version of this contact information is published at <a href="https://lukeszn.github.io/Black-cat-tatoo/.well-known/security.txt"><code>/.well-known/security.txt</code></a>, following RFC 9116.</p>
+
+    </article>
+  </div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-bottom">
+      <span>© <span data-year>2026</span> Black Cat Tattoo Studio, 191 Union Street, Lurgan BT66 8EQ.</span>
+      <span><a href="./">Home</a> · <a href="privacy.html">Privacy</a> · <a href="cookies.html">Cookies</a> · <a href="terms.html">Terms</a> · <a href="accessibility.html">Accessibility</a> · <a href="security.html">Security</a></span>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>

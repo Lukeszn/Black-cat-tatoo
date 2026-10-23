@@ -1,0 +1,5 @@
+Contact: mailto:lukeszns@gmail.com
+Expires: 2027-10-23T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://lukeszn.github.io/Black-cat-tatoo/.well-known/security.txt
+Policy: https://lukeszn.github.io/Black-cat-tatoo/security.html

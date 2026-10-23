@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukeszn.github.io/Black-cat-tatoo/sitemap.xml
